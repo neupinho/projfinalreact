@@ -12,7 +12,7 @@ export default function DashboardScreen({ navigation }) {
   const atualizarPeso = () => {
     if (novoPeso) {
       setPeso(novoPeso);
-      setMeta((Number(novoPeso) * 35).toFixed(0)); // 35 ml por kg
+      setMeta((Number(novoPeso) * 35).toFixed(0)); 
       setNovoPeso('');
     }
   };
